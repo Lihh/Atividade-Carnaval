@@ -14,6 +14,7 @@
 		028D54CA1A8E2E2A007C6EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028D54C91A8E2E2A007C6EF8 /* Images.xcassets */; };
 		028D54CD1A8E2E2A007C6EF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028D54CB1A8E2E2A007C6EF8 /* LaunchScreen.xib */; };
 		028D54D91A8E2E2A007C6EF8 /* GeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D54D81A8E2E2A007C6EF8 /* GeniusTests.m */; };
+		028D54E41A8E3912007C6EF8 /* Fila.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D54E31A8E3912007C6EF8 /* Fila.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		028D54D21A8E2E2A007C6EF8 /* GeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		028D54D71A8E2E2A007C6EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		028D54D81A8E2E2A007C6EF8 /* GeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeniusTests.m; sourceTree = "<group>"; };
+		028D54E21A8E3912007C6EF8 /* Fila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fila.h; sourceTree = "<group>"; };
+		028D54E31A8E3912007C6EF8 /* Fila.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fila.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		028D54B01A8E2E2A007C6EF8 = {
 			isa = PBXGroup;
 			children = (
+				028D54E21A8E3912007C6EF8 /* Fila.h */,
+				028D54E31A8E3912007C6EF8 /* Fila.m */,
 				028D54BB1A8E2E2A007C6EF8 /* Genius */,
 				028D54D51A8E2E2A007C6EF8 /* GeniusTests */,
 				028D54BA1A8E2E2A007C6EF8 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028D54C51A8E2E2A007C6EF8 /* ViewController.m in Sources */,
+				028D54E41A8E3912007C6EF8 /* Fila.m in Sources */,
 				028D54C21A8E2E2A007C6EF8 /* AppDelegate.m in Sources */,
 				028D54BF1A8E2E2A007C6EF8 /* main.m in Sources */,
 			);
