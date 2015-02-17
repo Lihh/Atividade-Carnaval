@@ -1,13 +1,13 @@
+////
+////  Tabuleiro.m
+////  Genius
+////
+////  Created by Gabriel Alberto de Jesus Preto on 16/02/15.
+////  Copyright (c) 2015 Gabriel Alberto de Jesus Preto. All rights reserved.
+////
 //
-//  Tabuleiro.m
-//  Genius
+//#import "Tabuleiro.h"
 //
-//  Created by Gabriel Alberto de Jesus Preto on 16/02/15.
-//  Copyright (c) 2015 Gabriel Alberto de Jesus Preto. All rights reserved.
-//
-
-#import "Tabuleiro.h"
-
 @implementation Tabuleiro
 
 -(instancetype) initGenius:(Usuario*)u{
@@ -87,5 +87,5 @@
     [sequencia enfileirar:(NSObject)numero];
     
 }
-
-@end
+//
+//@end
