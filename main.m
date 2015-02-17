@@ -12,6 +12,11 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Fila *fila = [[Fila alloc] init];
+        Fila *fila = [[Fila alloc] init];
+        [fila iniciaGenius];
+        [fila iniciaJogo];
+        [fila mostraCor];
+        
         NSString *e1 = @"Basile";
         NSString *e2 = @"Ilana";
         NSString *e3 = @"Vinícius";
