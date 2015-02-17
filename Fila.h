@@ -11,35 +11,27 @@
 
 @interface Fila : NSObject
 {
-    NSMutableArray *sequencia;
-    NSNumber *inicio;
-    NSObject *numero;
-    int highScore;
-    int numRodadas;
-    int count;
-    NSString *user;
+    NSMutableArray *elementos;
+//    NSInteger *inicio;
+//    NSObject *numero;
+//    int highScore;
+//    int numRodadas;
+//    NSString *user;
     
 }
 
-@property NSMutableArray *sequencia;
-@property NSNumber *inicio;
-@property NSObject *numero;
-@property int highScore;
-@property int numRodadas;
-@property int count;
-@property NSString *user;
+@property NSMutableArray *elementos;
+//@property NSInteger *inicio;
+//@property int highScore;
+//@property int numRodadas;
+//@property NSString *user;
 
 
--(void) iniciaGenius; //inicia fila, pede nome do jogador
--(void) iniciaJogo; //inicia um novo jogo
--(void) geraNumero; //numeros aleatoios para fila cada vez que user acerta a sequencia
--(void) proxRodada;
--(void) atualizaHighScore:(int)numRodadas; //checa se o high score mudou. high score = qtde de rodadas
--(void) mostraCor;
 
--(void) enfileirar:(NSObject *)numero;
+
+-(void) enfileirar:(NSObject*)numero;
 -(void) desenfileirar;
--(NSObject *) ler;
+-(NSObject*) ler;
 -(BOOL) vazio;
 
 

@@ -15,6 +15,9 @@
 		028D54CD1A8E2E2A007C6EF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028D54CB1A8E2E2A007C6EF8 /* LaunchScreen.xib */; };
 		028D54D91A8E2E2A007C6EF8 /* GeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D54D81A8E2E2A007C6EF8 /* GeniusTests.m */; };
 		028D54E41A8E3912007C6EF8 /* Fila.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D54E31A8E3912007C6EF8 /* Fila.m */; };
+		5E393AE01A92C68200380556 /* Ranking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E393ADF1A92C68200380556 /* Ranking.m */; };
+		5E393AE31A92C75A00380556 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E393AE21A92C75A00380556 /* Usuario.m */; };
+		5E393AE61A92CABB00380556 /* Tabuleiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E393AE51A92CABB00380556 /* Tabuleiro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		028D54D81A8E2E2A007C6EF8 /* GeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeniusTests.m; sourceTree = "<group>"; };
 		028D54E21A8E3912007C6EF8 /* Fila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fila.h; sourceTree = "<group>"; };
 		028D54E31A8E3912007C6EF8 /* Fila.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fila.m; sourceTree = "<group>"; };
+		5E393ADE1A92C68200380556 /* Ranking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ranking.h; sourceTree = "<group>"; };
+		5E393ADF1A92C68200380556 /* Ranking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ranking.m; sourceTree = "<group>"; };
+		5E393AE11A92C75A00380556 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		5E393AE21A92C75A00380556 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		5E393AE41A92CABB00380556 /* Tabuleiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabuleiro.h; sourceTree = "<group>"; };
+		5E393AE51A92CABB00380556 /* Tabuleiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tabuleiro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,12 @@
 		028D54B01A8E2E2A007C6EF8 = {
 			isa = PBXGroup;
 			children = (
+				5E393AE11A92C75A00380556 /* Usuario.h */,
+				5E393AE21A92C75A00380556 /* Usuario.m */,
+				5E393ADE1A92C68200380556 /* Ranking.h */,
+				5E393ADF1A92C68200380556 /* Ranking.m */,
+				5E393AE41A92CABB00380556 /* Tabuleiro.h */,
+				5E393AE51A92CABB00380556 /* Tabuleiro.m */,
 				028D54E21A8E3912007C6EF8 /* Fila.h */,
 				028D54E31A8E3912007C6EF8 /* Fila.m */,
 				028D54BB1A8E2E2A007C6EF8 /* Genius */,
@@ -226,7 +241,10 @@
 			files = (
 				028D54C51A8E2E2A007C6EF8 /* ViewController.m in Sources */,
 				028D54E41A8E3912007C6EF8 /* Fila.m in Sources */,
+				5E393AE01A92C68200380556 /* Ranking.m in Sources */,
 				028D54C21A8E2E2A007C6EF8 /* AppDelegate.m in Sources */,
+				5E393AE31A92C75A00380556 /* Usuario.m in Sources */,
+				5E393AE61A92CABB00380556 /* Tabuleiro.m in Sources */,
 				028D54BF1A8E2E2A007C6EF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +438,7 @@
 				028D54DE1A8E2E2A007C6EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		028D54DF1A8E2E2A007C6EF8 /* Build configuration list for PBXNativeTarget "GeniusTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +447,7 @@
 				028D54E11A8E2E2A007C6EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
